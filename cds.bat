@@ -13,18 +13,18 @@ IF %1==keyword2 (
 	GOTO END
 	)
 
+IF %1==e (
+	E:
+	cd \
+	GOTO END
+	)
+
 IF %1==help (
 	GOTO HELP
 	)
 
 IF %1==list (
 	GOTO LIST
-	)
-	
-IF %1==e (
-	E:
-	cd \
-	GOTO END
 	)
 	
 :HELP

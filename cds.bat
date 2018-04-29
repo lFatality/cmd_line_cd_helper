@@ -28,7 +28,7 @@ IF %1==list (
 	)
 	
 :HELP
-@echo Run the program as %0 pathshortcut. For a list all pathshortcuts: %0 list
+@echo Run the program as %0 pathshortcut. For a list of all pathshortcuts: %0 list
 GOTO END
 
 :LIST
